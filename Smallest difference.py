@@ -38,8 +38,6 @@ two pointers would yield better performance with a time complexity of O(n log n)
 
 
 def smallestDifference(arrayOne, arrayTwo):
-    arrayOne.sort()
-    arrayTwo.sort()
     min = float('inf')
     output=[]
     for i in arrayOne:
